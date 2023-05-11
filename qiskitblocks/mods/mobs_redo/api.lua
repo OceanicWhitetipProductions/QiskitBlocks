@@ -3235,9 +3235,9 @@ function mob_class:on_step(dtime)
 
 	--self:follow_flop()
 
-	self:do_states(dtime)
+	--self:do_states(dtime)
 
-	self:do_jump()
+	--self:do_jump()
 
 	self:do_runaway_from(self)
 
