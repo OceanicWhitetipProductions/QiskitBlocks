@@ -3229,11 +3229,11 @@ function mob_class:on_step(dtime)
 		self:replace(pos)
 	end
 
-	self:general_attack()
+	--self:general_attack()
 
 	self:breed()
 
-	self:follow_flop()
+	--self:follow_flop()
 
 	self:do_states(dtime)
 
